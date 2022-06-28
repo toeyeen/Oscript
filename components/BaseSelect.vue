@@ -5,7 +5,7 @@
         <option
           v-for="option in options"
           :value="option.value"
-          :key="option.value"
+          :key="option.id"
           :selected="option.value == value"
         >
           {{ option.name }}
